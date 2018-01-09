@@ -502,6 +502,7 @@ public slots:
     void stopJavaScript();
 
     void clearMemoryCache();
+    void setProxy(const QString& proxyUrl);
 
 signals:
     void initialized();
